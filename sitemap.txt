@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+
+      <loc>http://laspiedrasreservanatural.com.ar</loc>
+
+      <lastmod>2022-10-18</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>1</priority>
+
+   </url>
+
+   <url>
+
+     <loc>http://laspiedrasreservanatural.com.ar/clara-milano.html</loc>
+
+      <lastmod>2022-10-18</lastmod>
+
+   </url>
+
+  <url>
+
+     <loc>http://laspiedrasreservanatural.com.ar/franc-paredes.html</loc>
+
+      <lastmod>2022-10-18</lastmod>
+
+   </url>
+
+     <url>
+
+     <loc>http://laspiedrasreservanatural.com.ar/laspiedras.html</loc>
+
+      <lastmod>2022-10-18</lastmod>
+
+   </url>
+
+   <url>
+
+     <loc>http://laspiedrasreservanatural.com.ar/maia-gonzalez.html</loc>
+
+      <lastmod>2022-10-18</lastmod>
+
+   </url>
+
+      <url>
+
+     <loc>http://laspiedrasreservanatural.com.ar/programa-01.html</loc>
+
+      <lastmod>2022-10-18</lastmod>
+
+   </url>
+      <url>
+
+     <loc>http://laspiedrasreservanatural.com.ar/nilda-rosemberg.html</loc>
+
+      <lastmod>2022-10-18</lastmod>
+
+   </url>
+      <url>
+
+     <loc>http://laspiedrasreservanatural.com.ar/melina-berkanwald.html</loc>
+
+      <lastmod>2022-10-18</lastmod>
+
+   </url>
+      <url>
+
+     <loc>http://laspiedrasreservanatural.com.ar/residencia-pastizal.html</loc>
+
+      <lastmod>2022-10-18</lastmod>
+
+   </url>
+
+   
+
+</urlset>
