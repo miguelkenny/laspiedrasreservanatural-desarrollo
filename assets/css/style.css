@@ -1865,6 +1865,16 @@ section#reserva-natural {
   -ms-transform: translateY(-15px);
 }
 
+.overlay-bottom-edge {
+  position: absolute;
+  bottom: 0; /* Posicionada en la parte inferior */
+  left: 0;
+  width: 100%; /* Se adapta al ancho del contenedor */
+  max-height: 50px; /* Mantiene proporción */
+  z-index: 2; /* Asegura que esté encima del video */
+  pointer-events: none; /* Evita interferir con otros elementos */
+}
+
 @media screen and (min-width: 992px) {
   .slider-content h2 {
     font-size: 60px !important;
