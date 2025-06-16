@@ -1381,6 +1381,42 @@ section#reserva-natural {
   align-items: center;
 }
 
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .container {
+    max-width: 100%;
+  }
+  .main-menu-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+
+  .main-menu-bottom .navbar-brand {
+    flex-shrink: 0;
+    margin-right: 20px;
+  }
+
+  .main-menu-area {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end; /* Alinea el menú a la derecha */
+  }
+
+  .navbar-collapse {
+    display: flex !important;
+    align-items: center;
+  }
+
+  .main-menu-area .navbar-collapse {
+    justify-content: end !important;
+  }
+  .navbar-nav {
+    flex-direction: row;
+    gap: 15px;
+  }
+}
+
 .main-menu-area ul {
   display: flex;
   flex-wrap: wrap;
