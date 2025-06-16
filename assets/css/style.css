@@ -252,7 +252,7 @@ optgroup {
 }
 
 .quienes-somos {
-  font-size: 0.96rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -1910,6 +1910,29 @@ section#reserva-natural {
   z-index: 2; /* Asegura que esté encima del video */
   pointer-events: none; /* Evita interferir con otros elementos */
 }
+.section-divider {
+  position: relative !important;
+  width: 100%;
+}
+.divider-image {
+  position: absolute !important;
+  left: 0;
+  right: 0;
+  z-index: 2;
+
+  /* Coloca la imagen justo debajo del primer section */
+  top: 100 !important;
+
+  /* Ajuste fino si es necesario */
+  transform: translateY(0rem); /* Puedes ajustar este valor según necesites */
+  pointer-events: none; /* Evita interferencias con el scroll o clicks */
+}
+
+.divider-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
 @media screen and (min-width: 992px) {
   .slider-content h2 {
@@ -1936,6 +1959,9 @@ section#reserva-natural {
     transform: translateY(-15px);
     -webkit-transform: translateY(-15px);
     -ms-transform: translateY(-15px);
+  }
+  .divider-image {
+    transform: translateY(-2rem);
   }
 }
 .slider-content .btn-default {
@@ -2906,7 +2932,7 @@ section#reserva-natural {
 ====================================================*/
 
 .about-greenforest {
-  padding: 50px 0 75px 0;
+  padding: 40px 0 75px 0;
 }
 .about-greenforest-content h2 {
   text-transform: uppercase;
@@ -6199,7 +6225,7 @@ ul > li > a:hover {
 }
 
 .box-layout {
-  background: #fff;
+  background: #e5e2d9;
 }
 
 .box-style {
