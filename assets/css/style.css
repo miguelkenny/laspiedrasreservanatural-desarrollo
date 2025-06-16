@@ -1940,12 +1940,12 @@ section#reserva-natural {
   position: absolute !important;
   top: 100 !important; /* Justo debajo del primer section */
   right: 0;
-  z-index: 2; /* Que esté por encima del divider */
-  width: 8rem; /* Ajusta según el tamaño de tu imagen */
-  height: 8rem;
+  margin-right: 4px;
+  z-index: 5; /* Que esté por encima del divider */
+  width: 10rem; /* Ajusta según el tamaño de tu imagen */
   pointer-events: none;
   transform: translateY(
-    -7rem
+    -6.8rem
   ); /* Levanta la imagen para que toque el final del section 1 */
 }
 
@@ -1984,8 +1984,14 @@ section#reserva-natural {
   }
   .corner-image {
     width: 25rem; /* Ajusta según el tamaño de tu imagen */
-    height: 25rem;
     transform: translateY(-25rem);
+    margin-right: 15px;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  .corner-image {
+    width: 18rem;
+    transform: translateY(-15rem);
   }
 }
 .slider-content .btn-default {
