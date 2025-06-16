@@ -1910,15 +1910,17 @@ section#reserva-natural {
   z-index: 2; /* Asegura que esté encima del video */
   pointer-events: none; /* Evita interferir con otros elementos */
 }
+
 .section-divider {
   position: relative !important;
   width: 100%;
 }
+
 .divider-image {
   position: absolute !important;
   left: 0;
   right: 0;
-  z-index: 2;
+  z-index: 4;
 
   /* Coloca la imagen justo debajo del primer section */
   top: 100 !important;
@@ -1931,6 +1933,23 @@ section#reserva-natural {
 .divider-image img {
   width: 100%;
   height: auto;
+  display: block;
+}
+
+.corner-image {
+  position: absolute !important;
+  top: 100 !important; /* Justo debajo del primer section */
+  right: 0;
+  z-index: 2; /* Que esté por encima del divider */
+  width: 8rem; /* Ajusta según el tamaño de tu imagen */
+  height: 8rem;
+  pointer-events: none;
+  transform: translateY(
+    -7rem
+  ); /* Levanta la imagen para que toque el final del section 1 */
+}
+
+.corner-image img {
   display: block;
 }
 
@@ -1962,6 +1981,11 @@ section#reserva-natural {
   }
   .divider-image {
     transform: translateY(-2rem);
+  }
+  .corner-image {
+    width: 25rem; /* Ajusta según el tamaño de tu imagen */
+    height: 25rem;
+    transform: translateY(-25rem);
   }
 }
 .slider-content .btn-default {
