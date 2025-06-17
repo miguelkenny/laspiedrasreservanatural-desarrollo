@@ -1909,9 +1909,9 @@ section#reserva-natural {
   right: 0;
   margin-right: 0px;
   z-index: 2; /* Que esté por encima del divider */
-  width: 50rem; /* Ajusta según el tamaño de tu imagen */
+  width: 32rem; /* Ajusta según el tamaño de tu imagen */
   pointer-events: none;
-  transform: translateY(-17rem);
+  transform: translateY(-16rem);
 }
 @media screen and (min-width: 992px) {
   .slider-content h2 {
@@ -1953,17 +1953,29 @@ section#reserva-natural {
     width: 15rem;
     transform: translateY(-12rem);
   }
+  .corner-rigth-image {
+    width: 20rem; /* Ajusta según el tamaño de tu imagen */
+    transform: translateY(-11rem);
+  }
 }
 @media screen and (min-width: 999px) and (max-width: 1099px) {
   .corner-image {
     width: 10rem;
     transform: translateY(-6rem);
   }
+  .corner-rigth-image {
+    width: 16rem; /* Ajusta según el tamaño de tu imagen */
+    transform: translateY(-8.5rem);
+  }
 }
 @media screen and (min-width: 1100px) and (max-width: 1199px) {
   .corner-image {
     width: 18rem;
     transform: translateY(-15rem);
+  }
+  .corner-rigth-image {
+    width: 26rem; /* Ajusta según el tamaño de tu imagen */
+    transform: translateY(-14rem);
   }
 }
 
@@ -1972,11 +1984,19 @@ section#reserva-natural {
     width: 21rem;
     transform: translateY(-18rem);
   }
+  .corner-rigth-image {
+    width: 25rem; /* Ajusta según el tamaño de tu imagen */
+    transform: translateY(-13rem);
+  }
 }
 @media screen and (min-width: 992px) and (max-width: 998px) {
   .corner-image {
     width: 9.5rem;
     transform: translateY(-6rem);
+  }
+  .corner-rigth-image {
+    width: 20rem; /* Ajusta según el tamaño de tu imagen */
+    transform: translateY(-8rem);
   }
 }
 .slider-content .btn-default {
