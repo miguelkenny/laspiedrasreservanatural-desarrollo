@@ -466,6 +466,61 @@ img.img-responsive.logo-las-piedras {
   width: 250px;
 }
 
+/* Hace que todas las imágenes tengan proporción cuadrada */
+/* Imagen cuadrada */
+.img-square {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Imagen rectangular (horizontal) */
+.img-rectangular {
+  max-height: 400px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* General */
+.sponsor-logo {
+  height: 80px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Para pantallas pequeñas (móviles) */
+@media screen and (max-width: 767px) {
+  .sponsor-logo {
+    height: 60px;
+    margin-bottom: 10px;
+  }
+
+  .row.justify-content-center > div {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+/* Para tablets */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .sponsor-logo {
+    height: 70px;
+  }
+}
+
+/* Para escritorio */
+@media screen and (min-width: 992px) {
+  .sponsor-logo {
+    height: 60px;
+  }
+}
+
 h4.talleristas {
   font-size: 1em;
 }
@@ -2057,6 +2112,7 @@ section#reserva-natural {
 }
 .slider-btn {
   text-align: center;
+  margin-bottom: 40px;
 }
 .carousel-control {
   width: 0;
@@ -6293,7 +6349,7 @@ ul > li > a:hover {
 }
 
 .margin-bottom-150 {
-  margin-bottom: 150px;
+  margin-bottom: 10px;
 }
 
 img.logo-pastizal {
