@@ -433,7 +433,7 @@
     font-weight: 400;
     color: #696969;
     font-family: "Work Sans", sans-serif;
-    text-align: left;
+    text-align: justify;
   }
 
   /*============== Header =================*/
@@ -1143,7 +1143,7 @@
     font-weight: 400;
     color: #696969;
     font-family: "Work Sans", sans-serif;
-    text-align: left;
+    text-align: justify;
   }
 
   body {

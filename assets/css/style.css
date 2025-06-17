@@ -254,6 +254,7 @@ optgroup {
 .quienes-somos {
   font-size: 2rem;
   font-weight: bold;
+  text-align: justify;
 }
 
 @media screen and (min-width: 992px) {
@@ -3001,6 +3002,7 @@ section#reserva-natural {
 
 .about-greenforest {
   padding: 40px 0 75px 0;
+  text-align: justify !important;
 }
 .about-greenforest-content h2 {
   text-transform: uppercase;
@@ -3010,6 +3012,12 @@ section#reserva-natural {
   font-weight: 600;
   color: #043c38;
   margin: 11px 0 18px 0;
+}
+
+@media screen and (min-width: 992px) {
+  .about-greenforest-content p span {
+    text-align: justify;
+  }
 }
 .about-greenforest-content .btn-default {
   padding: 14px 28px 12px 28px;
