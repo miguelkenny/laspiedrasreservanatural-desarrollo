@@ -270,58 +270,6 @@ optgroup {
   z-index: 0;
 }
 
-.highlight-real::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  top: -1.4em;
-  left: 0.5em;
-  width: 98%;
-  height: 3.5em;
-  background: linear-gradient(
-    to bottom,
-    rgba(163, 198, 234, 1) 0%,
-    rgba(109, 136, 163, 1) 30%,
-    rgba(109, 136, 163, 1) 70%,
-    rgba(163, 198, 234, 1) 100%
-  );
-  z-index: 1;
-  clip-path: polygon(
-    1% 66%,
-    4% 63%,
-    9% 65%,
-    24% 61%,
-    34% 63%,
-    49% 64%,
-    59% 66%,
-    64% 62%,
-    79% 64%,
-    89% 64%,
-    94% 63%,
-    100% 65%,
-    102% 91%,
-    95% 89%,
-    85% 89%,
-    80% 91%,
-    70% 90%,
-    65% 88%,
-    55% 89%,
-    50% 91%,
-    45% 89%,
-    40% 90%,
-    35% 88%,
-    30% 91%,
-    20% 90%,
-    15% 89%,
-    10% 91%,
-    5% 89%,
-    0% 91%
-  );
-  mix-blend-mode: multiply;
-  filter: blur(5px);
-  pointer-events: none;
-}
-
 /**
  * 2.0 - Typography
  */
@@ -1928,13 +1876,13 @@ section#reserva-natural {
   top: 100 !important;
 
   /* Ajuste fino si es necesario */
-  transform: translateY(0rem); /* Puedes ajustar este valor según necesites */
+  transform: translateY(-1rem); /* Puedes ajustar este valor según necesites */
   pointer-events: none; /* Evita interferencias con el scroll o clicks */
 }
 
 .divider-image img {
   width: 100%;
-  height: auto;
+  max-height: 80px;
   display: block;
 }
 

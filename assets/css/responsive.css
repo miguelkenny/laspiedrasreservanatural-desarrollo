@@ -755,6 +755,9 @@
 
 @media screen and (max-width: 767px) {
   /*=============== Header ================*/
+  .line {
+    display: none;
+  }
   .container > .row {
     padding: 0;
     margin: 0;
