@@ -857,27 +857,28 @@ blockquote:after,
   /* max-width: 750px; */
   width: 100%;
   margin: 0 auto;
-  text-align: center;
-  padding: 50px 0 50px 0;
+  text-align: left;
+  padding: 20px 0 20px 0;
 }
 .section-header h3 {
   font-size: 24px;
   font-weight: 700;
   color: #043c38;
+  text-align: left;
+  margin: 0px 2% 1%;
 }
 .section-header h2 {
   line-height: 48px;
-  text-transform: uppercase;
   padding-bottom: 5px;
   color: #fff;
-  background: #fc6840;
-  margin: 0px 29% 1%;
+  margin: 0px 2% 1%;
 }
 .section-header p {
   font-size: 17px;
   font-weight: 400;
   color: #696969;
   line-height: 26px;
+  margin: 0px 2% 1%;
 }
 
 /*=======================
@@ -1939,13 +1940,13 @@ section#reserva-natural {
 .corner-image {
   position: absolute !important;
   top: 100 !important; /* Justo debajo del primer section */
-  right: 0;
-  margin-right: 4px;
+  left: 0;
+  margin-left: 4px;
   z-index: 5; /* Que esté por encima del divider */
-  width: 10rem; /* Ajusta según el tamaño de tu imagen */
+  width: 8.5rem; /* Ajusta según el tamaño de tu imagen */
   pointer-events: none;
   transform: translateY(
-    -6.8rem
+    -5.5rem
   ); /* Levanta la imagen para que toque el final del section 1 */
 }
 
@@ -1990,8 +1991,33 @@ section#reserva-natural {
 }
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
   .corner-image {
+    width: 15rem;
+    transform: translateY(-12rem);
+  }
+}
+@media screen and (min-width: 999px) and (max-width: 1099px) {
+  .corner-image {
+    width: 10rem;
+    transform: translateY(-6rem);
+  }
+}
+@media screen and (min-width: 1100px) and (max-width: 1199px) {
+  .corner-image {
     width: 18rem;
     transform: translateY(-15rem);
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1500px) {
+  .corner-image {
+    width: 21rem;
+    transform: translateY(-18rem);
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 998px) {
+  .corner-image {
+    width: 9.5rem;
+    transform: translateY(-6rem);
   }
 }
 .slider-content .btn-default {
@@ -2050,7 +2076,9 @@ section#reserva-natural {
   -webkit-transition-delay: 1s;
   transition-delay: 1s;
 }
-
+.slider-btn {
+  text-align: center;
+}
 .carousel-control {
   width: 0;
   opacity: 1;
@@ -3616,6 +3644,7 @@ ul > li > a:hover {
 
 .bg-working-section {
   padding: 2% 0;
+  background-color: #7ea59b !important;
 }
 .working-items {
   text-align: center;

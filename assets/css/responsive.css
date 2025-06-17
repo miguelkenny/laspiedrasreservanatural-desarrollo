@@ -355,10 +355,10 @@
 
   .section-header h2 {
     line-height: 48px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     padding-bottom: 5px;
     color: #fff;
-    background: #fc6840;
+    /*background: #fc6840;*/
     margin: 0px 9% 1%;
   }
 
@@ -366,7 +366,7 @@
     /* max-width: 750px; */
     width: 100%;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
     padding: 50px 0 50px 0;
   }
 
@@ -418,10 +418,10 @@
 
   .section-header h2 {
     line-height: 48px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     padding-bottom: 5px;
     color: #fff;
-    background: #fc6840;
+    /*background: #fc6840;*/
     margin: 0px 0% 3%;
   }
 
