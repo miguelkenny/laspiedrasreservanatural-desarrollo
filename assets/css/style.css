@@ -1939,7 +1939,9 @@ section#reserva-natural {
   top: 100 !important;
 
   /* Ajuste fino si es necesario */
-  transform: translateY(-1rem); /* Puedes ajustar este valor según necesites */
+  transform: translateY(
+    -0.5rem
+  ); /* Puedes ajustar este valor según necesites */
   pointer-events: none; /* Evita interferencias con el scroll o clicks */
 }
 
@@ -1949,33 +1951,6 @@ section#reserva-natural {
   display: block;
 }
 
-.corner-image {
-  position: absolute !important;
-  top: 100 !important; /* Justo debajo del primer section */
-  left: 0;
-  margin-left: 4px;
-  z-index: 5; /* Que esté por encima del divider */
-  width: 8.5rem; /* Ajusta según el tamaño de tu imagen */
-  pointer-events: none;
-  transform: translateY(
-    -5.5rem
-  ); /* Levanta la imagen para que toque el final del section 1 */
-}
-
-.corner-image img {
-  display: block;
-}
-
-.corner-rigth-image {
-  position: absolute !important;
-  top: 100 !important; /* Justo debajo del primer section */
-  right: 0;
-  margin-right: 0px;
-  z-index: 6; /* Que esté por encima del divider */
-  width: 20rem; /* Ajusta según el tamaño de tu imagen */
-  pointer-events: none;
-  transform: translateY(-8rem);
-}
 @media screen and (min-width: 992px) {
   .slider-content h2 {
     font-size: 60px !important;
