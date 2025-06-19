@@ -142,7 +142,7 @@
                             <div class="row">
                                 <div class="col-lg-8 col-md-12 col-sm-12 col-12">
                                     <div class="about-greenforest-content">
-                                        <img style="margin-bottom: 20px;"
+                                        <img style="margin-bottom: 20px; width: ;"
                                             src="assets/images/img-que-es-una-reserva-privada.png"
                                             alt="Que es una reserva privada" />
                                         <p>
@@ -195,10 +195,6 @@
             <img src="assets/images/video-bottom.png" alt="Divider" style="transform: rotate(180deg);" />
         </div>
 
-        <!-- Imagen cuadrada (la queremos a la derecha) -->
-        <div class="corner-image">
-            <img src="assets/images/carlos-frank.png" alt="Carlos Frank">
-        </div>
         <!-- End About Greenforest Section -->
         <section class="bg-about-greenforest" style="background-color: #947C30;">
             <div class="container">
@@ -251,62 +247,61 @@
         <img src="assets/images/divisor-2.png" alt="Divider" />
     </div>
 
-    <!-- Imagen cuadrada (la queremos a la derecha) -->
-    <div class="corner-rigth-image">
-        <img src="assets/images/Damian-Ganime.png" alt="Damian Ganine">
-    </div>
-    <!-- Start Working  Section -->
+    <!-- Start Working Section -->
     <section class="bg-working-section" id="reserva-natural">
-        <div class="container">
-            <div class="row align-items-start">
-                <!-- Columna del contenido -->
-                <div class="col-md-8">
-                    <div class="working-section">
-                        <div class="section-header">
-                            <h2><i class="fa fa-map-marker"></i> Es una reserva productiva con foco en la conservación
-                                del pastizal serrano pampeano, un ecosistema único que alberga especies propias y
-                                valiosas para la biodiversidad.</h2>
-                            <h3>
-                                La Reserva Natural Las Piedras. Es un espacio rural ubicado en Pigüé, al Sudoeste de la
-                                Provincia de Buenos Aires.
-                            </h3>
-                            <p style="color: #e5e2d9;">
-                                Se emplaza en un hermoso valle central al pie de las sierras del Cura Malal frente al
-                                cordón del Bravard. Su objetivo es la conservación del pastizal serrano y la promoción
-                                de la Agroecología como metodología de abordaje.
-                            </p>
-
-                            <!-- Imagen rectangular grande -->
-                            <div class="mt-4 text-center d-md-none">
-                                <img src="assets/images/vista-cordon-serrano.png" alt="Imagen rectangular"
-                                    class="img-fluid img-rectangular text-center mb-4">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Columna de imagen cuadrada -->
-                <div class="col-md-4">
-                    <div class="section-header">
-                        <img src="assets/images/ubicacion.jpg" alt="Imagen cuadrada"
-                            class="img-fluid img-square shadow-sm rounded">
-                    </div>
-                </div>
-            </div>
-
-            <div class="row mt-4 justify-content-center d-none d-md-block">
-                <div class="col-md-8">
-                    <img src="assets/images/vista-cordon-serrano.png" alt="Imagen rectangular"
-                        class="img-fluid img-rectangular mx-auto d-block">
-                </div>
-            </div>
-            <!-- Botón -->
-            <div class="slider-btn mt-4">
-                <a href="laspiedras.html" class="btn btn-default">+ las piedras reserva natural</a>
+    <div class="container">
+        <!-- Texto principal (se muestra en todas las pantallas) -->
+        <div class="row">
+        <div class="col-12 text-center text-md-left">
+            <div class="working-section section-header">
+            <h2 style="color: white; font-weight: normal;">
+                <i class="fa fa-map-marker" style="color: white;"></i>
+                Es una reserva productiva con foco en la conservación del pastizal serrano pampeano, un ecosistema único que alberga especies propias y valiosas para la biodiversidad.
+            </h2>
+            <h3>
+                La Reserva Natural Las Piedras es un espacio rural ubicado en Pigüé, al sudoeste de la Provincia de Buenos Aires.
+            </h3>
+            <p style="color: #e5e2d9;">
+                Se emplaza en un hermoso valle central al pie de las sierras del Cura Malal frente al cordón del Bravard. Su objetivo es la conservación del pastizal serrano y la promoción de la Agroecología como metodología de abordaje.
+            </p>
             </div>
         </div>
+        </div>
+
+        <!-- Imágenes: solo en móviles (debajo del texto) -->
+        <div class="row mt-4 d-block d-md-none">
+        <div class="col-12 text-center">
+            <img src="assets/images/vista-cordon-serrano.png" alt="Imagen rectangular"
+                class="img-fluid img-rectangular mb-4" >
+        </div>
+        <div class="col-12 text-center">
+            <img src="assets/images/ubicacion.jpg" alt="Imagen cuadrada"
+                class="img-fluid img-square shadow-sm rounded">
+        </div>
+        </div>
+
+        <!-- Imágenes: solo en escritorio (lado izquierdo y derecho del texto) -->
+        <div class="row mt-4 align-items-center d-none d-md-flex">
+        <div class="col-md-6">
+            <img src="assets/images/vista-cordon-serrano.png" alt="Imagen rectangular"
+                class="img-rectangular mx-auto d-block">
+        </div>
+        <div class="col-md-6">
+            <img src="assets/images/ubicacion.jpg" alt="Imagen cuadrada"
+                class="img-square shadow-sm rounded mx-auto d-block">
+        </div>
+        </div>
+
+        <!-- Botón -->
+        <div class="row mt-4">
+        <div class="col-12 text-center">
+            <div class="slider-btn">
+            <a href="laspiedras.html" class="btn btn-default">+ las piedras reserva natural</a>
+            </div>
+        </div>
+        </div>
+    </div>
     </section>
-    <!-- End Working Section -->
 
 
     <div class="divider-image">
@@ -314,7 +309,7 @@
     </div>
 
     <!-- Start Focus Cause Section -->
-    <section class="bg-focus-cause-section verde">
+    <!-- <section class="bg-focus-cause-section verde">
         <div class="container">
             <div class="row">
                 <div class="focus-cause">
@@ -327,28 +322,24 @@
                             de las decisiones que nos trajeron hasta este presente y mover el punto de encaje.
                         </p>
 
-                        <!-- Botón -->
                         <div class="slider-btn">
                             <a href="residencia-pastizal.html" class="btn btn-default">+ residencia pastizal</a>
                         </div>
                     </div>
-
-                    <!-- .row -->
                 </div>
-                <!-- .focus-cause -->
             </div>
-            <!-- .row -->
         </div>
-        <!-- .container -->
-    </section>
+        
+    </section> 
     <div class="divider-image">
         <img src="assets/images/divisor-4.png" alt="Divider" />
     </div>
+    -->
     <!-- End Focus Cause Section -->
     <section>
         <div class="container">
             <div class="row margin-bottom-150">
-                <img style="margin-top: 80px; height: max-content; margin-bottom: 10px;" src="assets/images/img-acompanian-nuestro-trabajo.png"
+                <img style="margin-top: 80px; height: max-content; margin-bottom: 30px; width: 75%;" src="assets/images/img-acompanian-nuestro-trabajo.png"
                     alt="Acompañan nuestro trabajo" />
                 <!-- Bloque de logos responsivo -->
                 <div class="container my-3">

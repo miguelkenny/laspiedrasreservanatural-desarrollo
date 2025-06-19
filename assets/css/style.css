@@ -469,20 +469,21 @@ img.img-responsive.logo-las-piedras {
 /* Hace que todas las imágenes tengan proporción cuadrada */
 /* Imagen cuadrada */
 .img-square {
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
   width: 100%;
-  height: auto;
-  border-radius: 8px;
+  aspect-ratio: 1 / 1;
+  object-fit: fill;
+  display: block;
+  margin: 0 auto;
+  border-radius: 15px !important;
 }
 
-/* Imagen rectangular (horizontal) */
+/* Imagen rectangular - estilo general */
 .img-rectangular {
-  max-height: 400px;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: auto;
+  height: 400px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 15px !important;
 }
 
 /* General */
@@ -518,6 +519,11 @@ img.img-responsive.logo-las-piedras {
 @media screen and (min-width: 992px) {
   .sponsor-logo {
     height: 60px;
+  }
+
+  .img-square {
+    width: auto;
+    height: 400px;
   }
 }
 
@@ -1247,14 +1253,16 @@ section#reserva-natural {
   background-size: cover;
   background-position: 50% 50%;
 }
+/*
 .page-header-overlay {
   background: rgb(0 0 0 / 61%);
 }
+  */
 .bg-page-header .page-header {
   text-align: center;
   border-bottom: none;
   margin: 0;
-  padding: 124px 0 104px 0;
+  padding: 150px 0 104px 0;
 }
 .page-title h2 {
   color: #fff;
