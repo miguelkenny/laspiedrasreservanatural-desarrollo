@@ -2641,9 +2641,8 @@ section#reserva-natural {
 =============================================*/
 
 .bg-footer-top {
-  background: #ebceec;
-  padding: 50px 0 50px;
-  margin-top: 50px;
+  padding: 0px 0;
+  background-color: #9c6046;
 }
 .widgets-title {
   margin-bottom: 32px;
@@ -2657,20 +2656,40 @@ section#reserva-natural {
 .widgets-content p {
   color: #bcbcbc;
 }
+.address {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 .address-box {
   margin-top: 20px;
   overflow: hidden;
 }
 .address li {
-  overflow: hidden;
-  padding: 5px 0;
+  margin-bottom: 10px;
+}
+
+.address i {
+  width: 20px;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.address a {
+  color: #e5e2d9;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.address a:hover {
+  color: #f0c419;
 }
 .address li .fa {
   float: left;
   width: 36px;
   height: 36px;
   font-size: 39px;
-  color: #043c38;
+  color: #e5e2d9;
   line-height: 46px;
   text-align: center;
   /* background: #AFD7C3; */
@@ -2683,6 +2702,14 @@ section#reserva-natural {
   color: #043c38;
   padding-top: 6px;
 }
+
+/* Responsive - Móviles */
+@media (max-width: 768px) {
+  .address li {
+    margin-bottom: 8px;
+  }
+}
+
 .latest-news li {
   overflow: hidden;
   padding: 20px 0;
