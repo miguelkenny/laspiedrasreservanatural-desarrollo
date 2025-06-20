@@ -1249,7 +1249,7 @@ section#reserva-natural {
 }
 
 .bg-page-header {
-  background: url(../../assets/images/bg-page-header.jpg) no-repeat;
+  background: url(../../assets/images/bg-page-header.jpg);
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -3118,7 +3118,8 @@ div#filters {
   text-align: center;
 }
 .portfolio-items {
-  /* margin-top: 40px; */
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 .portfolio-items .item {
   width: 33.33%;
@@ -3957,7 +3958,9 @@ ul > li > a:hover {
 /*========================
     Start portfolio items Section
 =======================================*/
-
+.bg-section-las-piedras {
+  background-color: #6d88a3;
+}
 .bg-recent-project-home3 {
   padding-bottom: 123px;
 }
@@ -4233,7 +4236,7 @@ ul > li > a:hover {
   /* margin-top: 8%; */
 }
 .single-services {
-  padding: 120px 0 95px 0;
+  padding: 120px 0 50px 0;
 }
 .single-services-content {
   padding-left: 30px;
