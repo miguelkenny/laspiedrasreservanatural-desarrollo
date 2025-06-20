@@ -891,6 +891,10 @@ blockquote:after,
   margin: 0px 2% 1%;
 }
 
+.section-header img {
+  margin: 0px 2% 1%;
+}
+
 /*=======================
     Custom btn Style
 =================================*/
@@ -2549,6 +2553,7 @@ section#reserva-natural {
 }
 .blog-img {
   overflow: hidden;
+  border-radius: 4% 4% 0 0;
 }
 .blog-img a {
   display: block;
@@ -2558,6 +2563,7 @@ section#reserva-natural {
   border-top: 0;
   height: max-content;
   background: #f0d861;
+  border-radius: 0 0 4% 4%;
 }
 .blog-content {
   padding: 31px 20px 25px 18px;
