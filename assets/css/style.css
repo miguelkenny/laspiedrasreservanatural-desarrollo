@@ -868,7 +868,7 @@ blockquote:after,
   width: 100%;
   margin: 0 auto;
   text-align: left;
-  padding: 80px 0 20px 0;
+  padding: 60px 0 40px 0;
 }
 .section-header h3 {
   font-size: 24px;
@@ -1063,7 +1063,8 @@ section#reserva-natural {
 }
 
 .verde {
-  background: #f0d861;
+  background-image: url(/assets/images/verde.jpg);
+  background-position: 50% 50%;
 }
 
 .green {
@@ -1257,12 +1258,25 @@ section#reserva-natural {
   background-size: cover;
   background-position: 50% 50%;
 }
+
+.bg-page-header-2 {
+  background: url(../../assets/images/bg-page-header-2.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
 /*
 .page-header-overlay {
   background: rgb(0 0 0 / 61%);
 }
   */
 .bg-page-header .page-header {
+  text-align: center;
+  border-bottom: none;
+  margin: 0;
+  padding: 150px 0 104px 0;
+}
+
+.bg-page-header-2 .page-header {
   text-align: center;
   border-bottom: none;
   margin: 0;
