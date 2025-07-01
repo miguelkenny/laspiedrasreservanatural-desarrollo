@@ -1065,6 +1065,7 @@ section#reserva-natural {
 .verde {
   background-image: url(/assets/images/verde.jpg);
   background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
 
 .green {
@@ -2560,7 +2561,7 @@ section#reserva-natural {
 =============================================*/
 
 .bg-blog-section {
-  padding-bottom: 90px;
+  padding-bottom: 20px;
 }
 .blog-items {
   margin-bottom: 30px;
@@ -2628,6 +2629,11 @@ section#reserva-natural {
   transform: scale(1.05, 1.05);
 }
 
+@media (max-width: 768px) {
+  .bg-blog-section {
+    padding-bottom: 20px;
+  }
+}
 /*===========================
     End Blog Section
 =============================================*/
