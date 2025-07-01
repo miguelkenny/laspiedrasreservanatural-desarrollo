@@ -1393,8 +1393,8 @@
     text-align: center;
   }
 
-  .slider-btn {
-    display: none;
+  .slider-btn-none {
+    display: none !important;
   }
 }
 
