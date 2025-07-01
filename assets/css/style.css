@@ -345,7 +345,7 @@ h6 {
 p {
   margin-bottom: 20px;
   padding: 0;
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 400;
   color: #696969;
   font-family: "Montserrat", sans-serif;
@@ -868,7 +868,7 @@ blockquote:after,
   width: 100%;
   margin: 0 auto;
   text-align: left;
-  padding: 60px 0 40px 0;
+  padding: 60px 0 60px 0;
 }
 .section-header h3 {
   font-size: 24px;
@@ -2167,6 +2167,24 @@ section#reserva-natural {
   z-index: 2;
 }
 
+.titulo-sponsors {
+  color: #23301c;
+  font-size: 24px;
+  text-align: center;
+}
+
+.titulo-reserva {
+  color: #23301c;
+  font-size: 24px;
+  text-align: center;
+}
+
+.titulo-residencia {
+  color: #23301c;
+  font-size: 24px;
+  text-align: center;
+}
+
 /*======================
     End Slider
 ================================*/
@@ -3066,7 +3084,7 @@ section#reserva-natural {
 ====================================================*/
 
 .about-greenforest {
-  padding: 40px 0 15px 0;
+  padding: 40px 0 35px 0;
   text-align: justify !important;
 }
 .about-greenforest-content h2 {

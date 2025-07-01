@@ -367,7 +367,7 @@
     width: 100%;
     margin: 0 auto;
     text-align: left;
-    padding: 60px 0 60px 0;
+    padding: 40px 0 40px 0;
   }
 
   .single-services-content h3 {
@@ -1141,7 +1141,7 @@
   p {
     margin-bottom: 10px;
     padding: 0;
-    font-size: 26px;
+    font-size: 25px;
     line-height: 30px;
     font-weight: 400;
     color: #696969;
@@ -1364,6 +1364,26 @@
   }
   .fs-lg-3 {
     font-size: 1em;
+  }
+  .titulo-sponsors {
+    color: #23301c;
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .titulo-reserva {
+    color: #23301c;
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .titulo-residencia {
+    color: #23301c;
+    font-size: 36px;
+    text-align: center;
+  }
+  .slider-btn {
+    display: none;
   }
 }
 
