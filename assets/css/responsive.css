@@ -427,13 +427,13 @@
 
   p {
     margin-bottom: 10px;
-    padding: 0;
+    padding: 0px 20px;
     font-size: 19px;
     line-height: 30px;
     font-weight: 400;
     color: #696969;
     font-family: "Work Sans", sans-serif;
-    text-align: justify;
+    text-align: left;
   }
 
   /*============== Header =================*/
@@ -1140,8 +1140,8 @@
 
   p {
     margin-bottom: 10px;
-    padding: 0;
-    font-size: 25px;
+    padding: 0px 18px 0px 18px;
+    font-size: 1.5em;
     line-height: 30px;
     font-weight: 400;
     color: #696969;
@@ -1154,6 +1154,10 @@
     font-size: 12px;
   }
 
+  .bg-focus-cause-section {
+    padding: 0;
+    margin-top: -5px;
+  }
   img.logo-pastizal {
     width: 80%;
     margin-bottom: 30px;
@@ -1382,6 +1386,13 @@
     font-size: 36px;
     text-align: center;
   }
+
+  .titulo-programa {
+    color: #23301c;
+    font-size: 36px;
+    text-align: center;
+  }
+
   .slider-btn {
     display: none;
   }
