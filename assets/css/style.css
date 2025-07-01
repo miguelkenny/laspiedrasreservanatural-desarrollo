@@ -2450,7 +2450,7 @@ section#reserva-natural {
   margin-bottom: 12px;
 }
 .volunteers-img {
-  width: 100%;
+  width: 85%;
   border-radius: 100%;
   background: #ddd;
   display: inline-block;
@@ -4298,9 +4298,11 @@ ul > li > a:hover {
   text-transform: uppercase;
   padding: 26px 0 3px 0;
 }
+/**
 .single-services-content p {
   text-align: justify;
 }
+  **/
 .mark-txt {
   padding-top: 14px;
 }
