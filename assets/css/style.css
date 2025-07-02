@@ -1289,6 +1289,14 @@ section#reserva-natural {
   margin: 0;
   padding: 150px 0 104px 0;
 }
+
+.bg-page-header-3 .page-header {
+  text-align: center;
+  border-bottom: none;
+  margin: 0;
+  padding: 150px 0 104px 0;
+}
+
 .page-title h2 {
   color: #fff;
   line-height: 23px;
