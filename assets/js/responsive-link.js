@@ -1,12 +1,12 @@
 function updateLinkTargets() {
     var links = document.querySelectorAll('.responsive-link');
     if (window.innerWidth < 768) { // Pantallas pequeñas
-        links.forEach(function(link) {
+        links.forEach(function (link) {
             link.setAttribute('target', '_self');
         });
     } else { // Pantallas grandes
-        links.forEach(function(link) {
-            link.setAttribute('target', '_blank');
+        links.forEach(function (link) {
+            link.setAttribute('target', '_self');
         });
     }
 }
