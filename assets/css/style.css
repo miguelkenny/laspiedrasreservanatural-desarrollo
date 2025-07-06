@@ -1972,9 +1972,7 @@ section#reserva-natural {
   top: 100 !important;
 
   /* Ajuste fino si es necesario */
-  transform: translateY(
-    -0.5rem
-  ); /* Puedes ajustar este valor según necesites */
+  transform: translateY(-1rem); /* Puedes ajustar este valor según necesites */
   pointer-events: none; /* Evita interferencias con el scroll o clicks */
 }
 
