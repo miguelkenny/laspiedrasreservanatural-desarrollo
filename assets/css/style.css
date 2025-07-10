@@ -350,6 +350,42 @@ p {
   color: #696969;
   font-family: "Montserrat", sans-serif;
 }
+
+.text-artistas {
+  margin-bottom: 20px;
+  padding: 0;
+  font-size: 20px;
+  font-weight: 400;
+  color: #e5e2d9;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapped-image {
+  float: left;
+  width: 350px; /* Ajustalo como prefieras */
+  margin-right: 20px;
+  margin-bottom: 6px;
+  border-radius: 5px;
+}
+
+/* Clearfix para evitar que el float afecte el contenedor */
+.text-with-image::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive: imagen arriba del texto en móviles */
+@media (max-width: 576px) {
+  .wrapped-image {
+    float: none;
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
 a {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -6416,6 +6452,10 @@ ul > li > a:hover {
 
 .box-layout {
   background: #e5e2d9;
+}
+
+.azul-layout {
+  background: #6d88a3;
 }
 
 .box-style {
