@@ -2669,7 +2669,6 @@ section#reserva-natural {
   margin-bottom: 30px;
 }
 .blog-img {
-  height: 300px; /* O la altura fija que desees para el contenedor de la imagen */
   overflow: hidden; /* Esto es importante para recortar cualquier parte de la imagen que sobresalga */
   align-items: center; /* Opcional: para centrar la imagen verticalmente */
   object-fit: fill;
