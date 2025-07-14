@@ -6549,7 +6549,10 @@ p.destacado {
   color: #fc6840;
   font-weight: bold;
 }
-
+span.destacado {
+  color: #fc6840;
+  font-weight: bolder;
+}
 p.disclaimer {
   font-size: 14px;
   line-height: 16px;
