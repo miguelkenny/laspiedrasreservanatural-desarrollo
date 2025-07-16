@@ -566,10 +566,12 @@ img.img-responsive.logo-las-piedras {
 h4.talleristas {
   font-size: 1.3em;
 }
-
+.volunteers-option {
+  width: 100%;
+}
 @media screen and (min-width: 992px) {
   h4.talleristas {
-    font-size: 1em;
+    font-size: 0.7em;
   }
 }
 .about-greenforest-img-mobile {
@@ -6583,4 +6585,9 @@ p.center {
   text-align: center;
   font-size: 0.8em;
   line-height: 1.2;
+}
+@media screen and (max-width: 480px) {
+  p.center {
+    font-size: 1.3em;
+  }
 }
