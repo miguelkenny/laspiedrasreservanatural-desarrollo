@@ -366,8 +366,8 @@
     /* max-width: 750px; */
     width: 100%;
     margin: 0 auto;
-    text-align: left;
-    padding: 40px 0 40px 0;
+    text-align: right;
+    padding: 50px 0 10px 0;
   }
 
   .single-services-content h3 {
@@ -1140,7 +1140,7 @@
 
   p {
     margin-bottom: 10px;
-    padding: 0px 18px 0px 18px;
+    padding: 0px 18px 18px 18px;
     font-size: 1.5em;
     line-height: 30px;
     font-weight: 400;

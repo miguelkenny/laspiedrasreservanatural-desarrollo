@@ -899,12 +899,28 @@ blockquote:after,
   padding-right: 0;
 }
 
+.img-nomadas {
+  width: 20%;
+  text-align: right;
+}
+
+@media screen and (max-width: 480px) {
+  .img-nomadas {
+    width: 40%;
+    text-align: right;
+  }
+}
+.clinica-obra {
+  font-size: 40px;
+  text-align: center;
+  color: #003c38;
+}
 .section-header {
   /* max-width: 750px; */
   width: 100%;
   margin: 0 auto;
-  text-align: left;
-  padding: 60px 0 40px 0;
+  text-align: right;
+  padding: 60px 0 0px 0;
 }
 .section-header h3 {
   font-size: 24px;
@@ -2528,7 +2544,6 @@ section#reserva-natural {
   margin-bottom: 12px;
 }
 .volunteers-img {
-  width: 85%;
   border-radius: 100%;
   background: #ddd;
   display: inline-block;
