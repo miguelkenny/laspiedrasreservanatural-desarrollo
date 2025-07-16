@@ -356,7 +356,7 @@ p {
   padding: 0;
   font-size: 20px;
   font-weight: 400;
-  color: #e5e2d9;
+  color: #23301c;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -3179,7 +3179,7 @@ section#reserva-natural {
 
 .about-greenforest {
   padding: 40px 0 35px 0;
-  text-align: justify !important;
+  /* text-align: justify !important; */
 }
 .about-greenforest-content h2 {
   text-transform: uppercase;
@@ -6488,7 +6488,7 @@ ul > li > a:hover {
 }
 
 .azul-layout {
-  background: #6d88a3;
+  background: #e5e2d9;
 }
 
 .box-style {
