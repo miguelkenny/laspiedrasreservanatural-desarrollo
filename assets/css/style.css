@@ -564,9 +564,14 @@ img.img-responsive.logo-las-piedras {
 }
 
 h4.talleristas {
-  font-size: 1em;
+  font-size: 1.3em;
 }
 
+@media screen and (min-width: 992px) {
+  h4.talleristas {
+    font-size: 1em;
+  }
+}
 .about-greenforest-img-mobile {
   display: none;
 }
