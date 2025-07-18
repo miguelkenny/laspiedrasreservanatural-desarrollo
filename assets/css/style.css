@@ -1123,8 +1123,7 @@ section#reserva-natural {
 
 .verde {
   background-image: url(/assets/images/verde.jpg);
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
+  height: 100%;
 }
 
 .green {
@@ -2444,7 +2443,7 @@ section#reserva-natural {
 =============================================*/
 
 .bg-focus-cause-section {
-  padding: 20px 0 20px 0;
+  padding: 30px 0 30px 0;
 }
 .focus-cause {
 }
