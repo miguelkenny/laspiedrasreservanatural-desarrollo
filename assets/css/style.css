@@ -6568,6 +6568,15 @@ p.destacado {
   color: #fc6840;
   font-weight: bold;
 }
+
+p.destacado-verde {
+  color: #7ea59b;
+  font-weight: bold;
+}
+span.destacado-verde {
+  color: #7ea59b;
+  font-weight: bolder;
+}
 span.destacado {
   color: #fc6840;
   font-weight: bolder;
